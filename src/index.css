@@ -1,13 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;300;400;500;600;700;900&display=swap');
+
+
+
+
+*{
+  font-family: 'Prompt', sans-serif;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #333;
+  
+  background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmRhYzQ4MTIwOWIyYmYyODMzOGNjMzczNDRkNzk2Y2NiZjEzNGEwYyZjdD1n/ITRemFlr5tS39AzQUL/giphy.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-blend-mode:soft-light;
+  color:white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.navbar{
+  background-color: rgba(51, 51,51, 0.8) !important;
+
 }
+
+.welcome{
+  min-height: 50em;
+  padding: 10em 0em 0em 10em;
+}
+.text-red{
+  color:#FD2667 !important;
+}
+.text-indigo{
+  color:#3469F0 !important;
+}
+.link-red:hover{
+  color:#3469F0 !important;
+}
+
+
+
+.btn-explore{
+  border: 2px solid #3469F0 !important;
+  border-radius: 0px;
+}
+.btn-explore:hover{
+  background-color: #3469F0 !important;
+  color: white !important;
+}
+
+
+svg{
+  opacity: 1!important;
+}
+.nav-link:hover{
+  color:#3469F0 !important;
+}
+.text-shaded{
+  text-shadow: 2px 2px #FD2667,0.5px 3px #3469F0 !important;
+}
+.text-welcome{
+  font-size:larger !important;
+}
+
+
+
+
+
+@media screen and (max-width:992px) {
+  .welcome{
+    min-height: 50em;
+    padding: 10em 0em 0em 3em;
+  }
+}
+

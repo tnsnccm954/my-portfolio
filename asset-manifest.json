@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.454a0241.css",
+    "main.js": "/my-portfolio/static/js/main.d571be9a.js",
+    "static/js/787.68dbee1e.chunk.js": "/my-portfolio/static/js/787.68dbee1e.chunk.js",
+    "static/media/nccm_logo.svg": "/my-portfolio/static/media/nccm_logo.8b8f473dc5684ae5c87f18ef69753824.svg",
+    "index.html": "/my-portfolio/index.html",
+    "static/media/gitlogo.svg": "/my-portfolio/static/media/gitlogo.24e48e1db61d37b77a6c99ca40a6a831.svg",
+    "main.454a0241.css.map": "/my-portfolio/static/css/main.454a0241.css.map",
+    "main.d571be9a.js.map": "/my-portfolio/static/js/main.d571be9a.js.map",
+    "787.68dbee1e.chunk.js.map": "/my-portfolio/static/js/787.68dbee1e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.454a0241.css",
+    "static/js/main.d571be9a.js"
+  ]
+}
